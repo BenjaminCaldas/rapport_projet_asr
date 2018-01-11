@@ -1,0 +1,30 @@
+\ifglsentryexists{APS}{}%
+{%
+\gls@defglossaryentry{APS}%
+{%
+name={aps},%
+sort={aps},%
+type={main},%
+first={aps},%
+firstplural={apss},%
+text={aps},%
+plural={apss},%
+description={Assurance et Protection Sociale},%
+descriptionplural={Assurance et Protection Sociale},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
