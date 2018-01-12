@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.10)  11 JAN 2018 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.10)  12 JAN 2018 01:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2914,37 +2914,76 @@ tech.pdf> <./polytech/univ.pdf>]
 \c@pagesLTS.pnc.roman=\count480
 \c@pagesLTS.double.roman=\count481
 \c@pagesLTS.current.local.roman=\count482
- (./caldas_verecque_projet_asr.toc)
-\tf@toc=\write13
-\openout13 = `caldas_verecque_projet_asr.toc'.
-
+ (./caldas_verecque_projet_asr.toc
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/jkpf/b/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
  [1
 
 
+])
+\tf@toc=\write13
+\openout13 = `caldas_verecque_projet_asr.toc'.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Table des ma-tières
+ []
+
+[2]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Table des ma-tières
+ []
+
+[3] (./caldas_verecque_projet_asr.lof)
+\tf@lof=\write14
+\openout14 = `caldas_verecque_projet_asr.lof'.
+
+ [4
+
 ]
 \c@pagesLTS.roman.1.local.count=\count483
 \c@pagesLTS.pnc.arabic=\count484
 \c@pagesLTS.double.arabic=\count485
 \c@pagesLTS.current.local.arabic=\count486
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 47.
+.................................................
  [1
 
 
+ <./images/sujet_asr.png>]
+[2
+
+] [3
+
+] [4
+
 ]
-
-Package biblatex Warning: Type 'online' not found on input line 47.
-
-No file caldas_verecque_projet_asr.gls.
-No file caldas_verecque_projet_asr.acr.
-No file caldas_verecque_projet_asr.ind.
-
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]
  []
 
-[2]
+[5] [6
+
+] [7
+
+] [8
+
+] [9
+
+]
+
+Package biblatex Warning: Type 'online' not found on input line 216.
+
+No file caldas_verecque_projet_asr.gls.
+No file caldas_verecque_projet_asr.acr.
+No file caldas_verecque_projet_asr.ind.
+[10
+
+]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: custom
@@ -2977,13 +3016,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [3
+ [11
 
 
 ] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 47.
+
+LaTeX Warning: Polytech : Label defined but unused : fig:enonce_sujet_projet_as
+r on input line 216.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 216.
 \c@pagesLTS.arabic.1.local.count=\count487
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -2991,29 +3034,29 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is even.
+Package pageslts Info: Total number of pages is odd.
 
 
 (./caldas_verecque_projet_asr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
 Package logreq Info: Writing requests to 'caldas_verecque_projet_asr.run.xml'.
 \openout1 = `caldas_verecque_projet_asr.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 53597 strings out of 493013
- 963184 string characters out of 6136993
- 1575608 words of memory out of 5000000
- 56069 multiletter control sequences out of 15000+600000
- 130101 words of font info for 183 fonts, out of 8000000 for 9000
+ 53769 strings out of 493013
+ 965071 string characters out of 6136993
+ 1582715 words of memory out of 5000000
+ 56151 multiletter control sequences out of 15000+600000
+ 137237 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,94p,10425b,21436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,94p,10425b,21952s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-exp
 ert.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/201
 6/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><c:/texlive/2016/texmf-dist
@@ -3025,10 +3068,10 @@ ve/2016/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2016/texm
 f-dist/fonts/type1/public/kpfonts/jkpmne.pfb><c:/texlive/2016/texmf-dist/fonts/
 type1/public/kpfonts/jkpmsc8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
 c/kpfonts/jkpttmn8a.pfb>
-Output written on caldas_verecque_projet_asr.pdf (8 pages, 97287 bytes).
+Output written on caldas_verecque_projet_asr.pdf (19 pages, 245455 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
- 44639 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 478 PDF objects out of 1000 (max. 8388607)
+ 426 compressed objects within 5 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 51172 words of extra memory for PDF output out of 51595 (max. 10000000)
 

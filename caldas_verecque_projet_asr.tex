@@ -28,13 +28,9 @@
 
 \part{Introduction}
 
-\vspace{1\baselineskip} %saut de ligne
+%\vspace{1\baselineskip} %saut de ligne
 
-\vfill\eject %saut de page
-
-\section{Contexte}
-
-\section{Sujet}
+%\vfill\eject %saut de page
 
 %\begin{figure}
 %	\pgfimage[width=5cm]{images/.jpg}
@@ -42,6 +38,179 @@
 %	\label{fig:}
 %\end{figure}
 
+\section{Contexte}
+5A projet ASR (Architecture Système et Réseaux)
 
+\section{Sujet}
+La figure suivante contient l'énoncé exact de notre sujet.
+
+\begin{figure}
+	\pgfimage[width=12cm]{images/sujet_asr.png}
+	\caption{Énoncé exact du sujet}
+	\label{fig:enonce_sujet_projet_asr}
+\end{figure}
+
+\section{Objectifs}
+L’objectif de notre projet était de mettre en place un système d’exploitation Unix contenant tous les outils permettant de réaliser du développement suivant les trois grands axes de parallélisations :
+
+- OpenMP
+
+- Nvidia GPU Cuda
+
+- MPI
+
+Ce système devait également être portable et bootable depuis n’importe quel clé usb. Cette contrainte indique également que le système doit être léger, simple d’utilisation et d’installation.
+
+\part{Définition du sujet}
+
+\section{Système d'exploitation}
+Un système d'exploitation (SE), ou Operating System (OS) en anglais est ...
+
+\section{Clé USB bootable}
+Une clé USB bootable est une clé USB qui intègre un OS permettant de démarrer un ordinateur sans faire appel à un autre élément de stockage. 
+
+Parler du Grub
+
+\section{OpenMP}
+Permet le calcul parallèle
+
+Fonctionne avec le compilateur gcc
+
+S'appuie sur le CPU
+
+\section{Cuda}
+Permet le calcul parallèle
+
+S'appuie sur GPU de marque NVIDIA
+
+Fonctionne avec le compilateur nvcc
+
+\section{MPI}
+Permet le calcul parallèle
+
+S'appuie sur la communication en réseau
+
+\part{Solution envisagée}
+
+\section{Principe}
+S'appuyer sur un OS léger car clé de 16 Go max.
+
+Lui installer les éléments nécessaires
+
+Permettre d'utiliser les 3 outils sans aucune action nécessaire si le contexte le permet.
+
+OpenMp -> toujours
+
+Cuda -> si carte graphique NVIDIA
+
+MPI -> si réseau
+
+\section{Choix du système d'exploitation}
+
+\subsection{Recherche}
+Le choix de l’OS était totalement libre, l’idée était néanmoins d’avoir un système assez léger.
+
+\subsection{Lubuntu}
+Léger, simple et réactif.
+
+\part{Étapes de réalisation}
+
+\section{Création de la clé bootable}
+
+\subsection{Création de l'environnement}
+Environnement live Lubuntu sur clé de faible capacité (4 Go suffisent).
+
+\subsection{Installation et partitionnage de la clé USB}
+Environ 1 Go pour Lubuntu
+
+4 Go swap, 
+
+reste en ext2 pour le stockage (la persistance)
+
+\subsection{Installation}
+
+\subsection{Validation OpenMP}
+
+\section{Ajout de Cuda}
+
+\subsection{Vérifications}
+
+\subsection{Installation Cuda}
+
+\subsection{Installation nvcc}
+
+\subsection{Validation}
+
+\section{MPI}
+
+\subsection{Installation}
+
+\subsection{Validation}
+
+\part{Gestion de projet}
+
+\section{Organisation}
+2 créneaux par semaine, découpage entre nous deux
+
+\section{Planning}
+Faire un Gantt très arrangé
+
+\section{Gestion de versions}
+Les .img
+
+\part{Problèmes rencontrés}
+
+\section{Connexion réseau de Polytech}
+Impossible de télécharger les paquet sur 2h tellement le débit est faible.
+
+\section{Temps des installations}
+limite pour des créneaux de 2h
+
+gcc + cuda + nvcc = plus de 6h avec une bonne connexion
+
+\section{Choix de du système d'exploitation}
+
+\section{Secure Boot}
+Mode UEFI, Legacy
+
+Fucking Asus -> secure boot mode abusé
+
+\section{Mode Live et mode persistant}
+
+\section{Persistance limitée}
+Les 4 Go max avec Linux Live Creator
+
+\section{Limite de stockage}
+Une clé de 16 Go c'est peu
+
+plus beaucoup d'espace pour les développeurs
+
+\section{Fragilité}
+Veillez à ce que la clé soit bien connectée sinon au revoir l'OS, d'où l'utilité des sauvegardes qu el'on aurait dû mettre en place bien avant...
+
+\part{Outils utilisés}
+Dans cette partie, nous récapitulerons tous les outils utilisés, nous détaillerons leurs fonctionnalités et nous indiquerons où et comment se les procurer.
+
+\section{Linux Live Creator}
+Création clé live de départ
+
+\section{USB Image Tools}
+Sauvegarde des .img
+
+\section{Etcher}
+Ré-injection des .img
+
+\section{Diskpart}
+Re-partitionnement de la clé USB.
+
+\section{Github}
+Pour la rédaction du rapport
+
+\part{Guide du développeur}
+Dans le but d'aider un futur développeur qui se lancerait dans la même tâche que celle qui nous a été confiée, nous avons créé un guide destiné à une personne ayant des compétences assez avancées en système dans le but de lui donner la marche à suivre.
+
+Ici ou en annexe
+
+\part{Conclusion}
 
 \end{document}
