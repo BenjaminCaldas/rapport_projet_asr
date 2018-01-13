@@ -22,99 +22,133 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Objectifs}{1}{section.0.3}
+\contentsline {section}{\numberline {3}Objectifs}{2}{section.0.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}D\IeC {\'e}finition du sujet}{2}{part.2}
+\contentsline {part}{II\hspace {1em}D\IeC {\'e}finition du sujet}{3}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Syst\IeC {\`e}me d'exploitation}{2}{section.0.4}
+\contentsline {section}{\numberline {4}Syst\IeC {\`e}me d'exploitation}{3}{section.0.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Cl\IeC {\'e} USB bootable}{2}{section.0.5}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}OpenMP}{2}{section.0.6}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Cuda}{2}{section.0.7}
+\contentsline {section}{\numberline {5}Cl\IeC {\'e} USB bootable}{4}{section.0.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}MPI}{2}{section.0.8}
+\contentsline {section}{\numberline {6}OpenMP}{4}{section.0.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Solution envisag\IeC {\'e}e}{3}{part.3}
+\contentsline {section}{\numberline {7}Cuda}{4}{section.0.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Principe}{3}{section.0.9}
+\contentsline {section}{\numberline {8}MPI}{4}{section.0.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Choix du syst\IeC {\`e}me d'exploitation}{3}{section.0.10}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1}Recherche}{3}{subsection.0.10.1}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2}Lubuntu}{3}{subsection.0.10.2}
+\contentsline {part}{III\hspace {1em}Solution envisag\IeC {\'e}e}{6}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}\IeC {\'E}tapes de r\IeC {\'e}alisation}{4}{part.4}
+\contentsline {section}{\numberline {9}Principe}{6}{section.0.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}Cr\IeC {\'e}ation de la cl\IeC {\'e} bootable}{4}{section.0.11}
+\contentsline {section}{\numberline {10}Choix du syst\IeC {\`e}me d'exploitation}{6}{section.0.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1}Cr\IeC {\'e}ation de l'environnement}{4}{subsection.0.11.1}
+\contentsline {subsection}{\numberline {10.1}Recherche}{6}{subsection.0.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2}Installation et partitionnage de la cl\IeC {\'e} USB}{4}{subsection.0.11.2}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3}Installation}{5}{subsection.0.11.3}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4}Validation OpenMP}{5}{subsection.0.11.4}
+\contentsline {subsection}{\numberline {10.2}Lubuntu}{7}{subsection.0.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12}Ajout de Cuda}{5}{section.0.12}
+\contentsline {part}{IV\hspace {1em}\IeC {\'E}tapes de r\IeC {\'e}alisation}{8}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1}V\IeC {\'e}rifications}{5}{subsection.0.12.1}
+\contentsline {section}{\numberline {11}Cr\IeC {\'e}ation de la cl\IeC {\'e} bootable}{8}{section.0.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2}Installation Cuda}{5}{subsection.0.12.2}
+\contentsline {subsection}{\numberline {11.1}Cr\IeC {\'e}ation de l'environnement}{8}{subsection.0.11.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3}Installation nvcc}{5}{subsection.0.12.3}
+\contentsline {subsection}{\numberline {11.2}Partitionnement de la cl\IeC {\'e} USB et Installation du SE}{8}{subsection.0.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.4}Validation}{5}{subsection.0.12.4}
+\contentsline {section}{\numberline {12}Gcc}{8}{section.0.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13}MPI}{5}{section.0.13}
+\contentsline {subsection}{\numberline {12.1}Installation}{8}{subsection.0.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1}Installation}{5}{subsection.0.13.1}
+\contentsline {subsection}{\numberline {12.2}Validation OpenMP}{9}{subsection.0.12.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2}Validation}{5}{subsection.0.13.2}
+\contentsline {section}{\numberline {13}Cuda}{9}{section.0.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{V\hspace {1em}Gestion de projet}{6}{part.5}
+\contentsline {subsection}{\numberline {13.1}V\IeC {\'e}rifications}{9}{subsection.0.13.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14}Organisation}{6}{section.0.14}
+\contentsline {subsection}{\numberline {13.2}Installation Cuda}{9}{subsection.0.13.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15}Planning}{6}{section.0.15}
+\contentsline {subsection}{\numberline {13.3}Installation nvcc}{9}{subsection.0.13.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16}Gestion de versions}{6}{section.0.16}
+\contentsline {subsection}{\numberline {13.4}Validation}{9}{subsection.0.13.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{VI\hspace {1em}Probl\IeC {\`e}mes rencontr\IeC {\'e}s}{7}{part.6}
+\contentsline {section}{\numberline {14}MPI}{9}{section.0.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17}Connexion r\IeC {\'e}seau de Polytech}{7}{section.0.17}
+\contentsline {subsection}{\numberline {14.1}Installation}{9}{subsection.0.14.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {18}Temps des installations}{7}{section.0.18}
+\contentsline {subsection}{\numberline {14.2}Validation mono-poste}{9}{subsection.0.14.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19}Choix de du syst\IeC {\`e}me d'exploitation}{7}{section.0.19}
+\contentsline {subsection}{\numberline {14.3}Validation sur r\IeC {\'e}seau}{9}{subsection.0.14.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {20}Secure Boot}{7}{section.0.20}
+\contentsline {part}{V\hspace {1em}Gestion de projet}{10}{part.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {21}Mode Live et mode persistant}{7}{section.0.21}
+\contentsline {section}{\numberline {15}Organisation}{10}{section.0.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {22}Persistance limit\IeC {\'e}e}{7}{section.0.22}
+\contentsline {section}{\numberline {16}Planning}{10}{section.0.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {23}Limite de stockage}{7}{section.0.23}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {24}Fragilit\IeC {\'e}}{7}{section.0.24}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{VII\hspace {1em}Outils utilis\IeC {\'e}s}{8}{part.7}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {25}Linux Live Creator}{8}{section.0.25}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {26}USB Image Tools}{8}{section.0.26}
+\contentsline {section}{\numberline {17}Gestion de versions}{11}{section.0.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {27}Etcher}{8}{section.0.27}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {28}Diskpart}{8}{section.0.28}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {29}Github}{8}{section.0.29}
+\contentsline {part}{VI\hspace {1em}Probl\IeC {\`e}mes et difficult\IeC {\'e}s rencontr\IeC {\'e}s}{12}{part.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{VIII\hspace {1em}Guide du d\IeC {\'e}veloppeur}{9}{part.8}
+\contentsline {section}{\numberline {18}Connexion r\IeC {\'e}seau de Polytech}{12}{section.0.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IX\hspace {1em}Conclusion}{10}{part.9}
+\contentsline {section}{\numberline {19}Temps des installations}{12}{section.0.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {20}Secure Boot}{12}{section.0.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {21}Mode Live et mode persistant}{13}{section.0.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {22}Limite de stockage}{13}{section.0.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {23}Fragilit\IeC {\'e}}{13}{section.0.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{VII\hspace {1em}Outils utilis\IeC {\'e}s}{14}{part.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {24}Linux Live Creator}{14}{section.0.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {25}USB Image Tools}{14}{section.0.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {26}Etcher}{14}{section.0.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {27}Diskpart}{14}{section.0.27}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{VIII\hspace {1em}Guide d'utilisation}{17}{part.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{IX\hspace {1em}Guide d'installation}{18}{part.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{X\hspace {1em}Guide du d\IeC {\'e}veloppeur}{19}{part.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{XI\hspace {1em}Conclusion}{20}{part.11}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 

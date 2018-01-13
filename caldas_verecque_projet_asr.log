@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.10)  12 JAN 2018 01:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.10)  13 JAN 2018 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2607,61 +2607,61 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 \openout1 = `caldas_verecque_projet_asr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 27.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 27.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 43.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 43.
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 27.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 43.
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 27.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 43.
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 27.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 43.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
 
 (c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Try loading font information for T1+jkpf on input line 27.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for T1+jkpf on input line 43.
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/t1jkpf.fd
 File: t1jkpf.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkpf.
 )
-LaTeX Info: Redefining \degres on input line 27.
-LaTeX Info: Redefining \dots on input line 27.
+LaTeX Info: Redefining \degres on input line 43.
+LaTeX Info: Redefining \dots on input line 43.
 Package frenchb.ldf Info: Setting StandardItemizeEnv=true for
 (frenchb.ldf)             compatibility with enumitem package,
-(frenchb.ldf)              on input line 27.
-LaTeX Info: Redefining \up on input line 27.
+(frenchb.ldf)              on input line 43.
+LaTeX Info: Redefining \up on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2705,9 +2705,9 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'caldas_verecque_projet_asr.bbl' found.
 (./caldas_verecque_projet_asr.bbl)
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
-LaTeX Info: Redefining \microtypecontext on input line 27.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
+LaTeX Info: Redefining \microtypecontext on input line 43.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2761,7 +2761,7 @@ ABD: EveryShipout initializing macros
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring ON on input line 27.
+Package hyperref Info: Link coloring ON on input line 43.
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2771,9 +2771,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count471
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 
 Package pageslts Warning: Package pdfpages detected.
@@ -2825,18 +2825,18 @@ Package caption Info: End \AtBeginDocument code.
 File: polytech/polytech.pdf Graphic file (type pdf)
 
 <use polytech/polytech.pdf>
-Package pdftex.def Info: polytech/polytech.pdf used on input line 27.
+Package pdftex.def Info: polytech/polytech.pdf used on input line 43.
 (pdftex.def)             Requested size: 306.2564pt x 95.25526pt.
  <polytech/univ.pdf, id=8, 133.3289pt x 99.73561pt>
 File: polytech/univ.pdf Graphic file (type pdf)
 
 <use polytech/univ.pdf>
-Package pdftex.def Info: polytech/univ.pdf used on input line 27.
+Package pdftex.def Info: polytech/univ.pdf used on input line 43.
 (pdftex.def)             Requested size: 133.32857pt x 99.73535pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/jkpf/b/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for T1+jkptt on input line 27.
+LaTeX Font Info:    Try loading font information for T1+jkptt on input line 43.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
@@ -2846,7 +2846,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `jkptt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+jkpf on input line 27.
+LaTeX Font Info:    Try loading font information for OT1+jkpf on input line 43.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/ot1jkpf.fd
@@ -2856,13 +2856,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `jkpf' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 27.
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 43.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+LaTeX Font Info:    Try loading font information for U+msa on input line 43.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2870,7 +2870,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2878,13 +2878,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 27.
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 43.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+stmry on input line 27.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 43.
 
 (c:/texlive/2016/texmf-dist/tex/latex/stmaryrd/ustmry.fd)
 Package microtype Info: Character `029' is missing
@@ -2949,39 +2949,129 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 47.
+. Redefining command \caption with sig. 'om' on line 53.
 .................................................
  [1
 
 
  <./images/sujet_asr.png>]
-[2
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]
+ []
 
-] [3
+[2]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 75.
+.................................................
+ [3
 
-] [4
+ <./images/se.png>]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 107.
+.................................................
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]
+ []
+
+[4]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]
+ []
+
+[5 <./images/mpi_network.png>]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 134.
+.................................................
+ [6
 
 ]
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]
  []
 
-[5] [6
+[7 <./images/compatibilite_OS.png>] [8
 
-] [7
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]
+ []
 
-] [8
+[9]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 199.
+.................................................
+ [10
 
-] [9
+ <./images/taches_identifiees.png>]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 209.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 218.
+.................................................
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]
+ []
+
+[11 <./images/planning.png> <./images/versions_img.png>] [12
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]
+ []
+
+[13]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 262.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 280.
+.................................................
+ [14
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]
+ []
+
+[15 <./images/lili_usb_creator.png>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]
+ []
+
+[16 <./images/diskpart.png>] [17
+
+
+] [18
+
+] [19
 
 ]
 
-Package biblatex Warning: Type 'online' not found on input line 216.
+Package biblatex Warning: Type 'online' not found on input line 322.
 
 No file caldas_verecque_projet_asr.gls.
 No file caldas_verecque_projet_asr.acr.
 No file caldas_verecque_projet_asr.ind.
-[10
+[20
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3016,17 +3106,49 @@ No file caldas_verecque_projet_asr.ind.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [11
+ [21
 
 
 ] 
 AED: pageslts setting LastPage 
 
-LaTeX Warning: Polytech : Label defined but unused : fig:enonce_sujet_projet_as
-r on input line 216.
+LaTeX Warning: Polytech : Label defined but unused : fig:diskpart on input line
+ 322.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 216.
+
+LaTeX Warning: Polytech : Label defined but unused : fig:diskpart on input line
+ 322.
+
+
+LaTeX Warning: Polytech : Label defined but unused : fig:diskpart on input line
+ 322.
+
+
+LaTeX Warning: Polytech : Label defined but unused : fig:diskpart on input line
+ 322.
+
+
+LaTeX Warning: Polytech : Label defined but unused : fig:diskpart on input line
+ 322.
+
+
+LaTeX Warning: Polytech : Label defined but unused : fig:diskpart on input line
+ 322.
+
+
+LaTeX Warning: Polytech : Label defined but unused : fig:diskpart on input line
+ 322.
+
+
+LaTeX Warning: Polytech : Label defined but unused : fig:diskpart on input line
+ 322.
+
+
+LaTeX Warning: Polytech : Label defined but unused : fig:diskpart on input line
+ 322.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 322.
 \c@pagesLTS.arabic.1.local.count=\count487
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -3038,25 +3160,25 @@ Package pageslts Info: Total number of pages is odd.
 
 
 (./caldas_verecque_projet_asr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package logreq Info: Writing requests to 'caldas_verecque_projet_asr.run.xml'.
 \openout1 = `caldas_verecque_projet_asr.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 53769 strings out of 493013
- 965071 string characters out of 6136993
- 1582715 words of memory out of 5000000
- 56151 multiletter control sequences out of 15000+600000
- 137237 words of font info for 198 fonts, out of 8000000 for 9000
+ 53949 strings out of 493013
+ 967208 string characters out of 6136993
+ 1582439 words of memory out of 5000000
+ 56184 multiletter control sequences out of 15000+600000
+ 149225 words of font info for 282 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,94p,10425b,21952s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,94p,10425b,21964s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-exp
 ert.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/201
 6/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><c:/texlive/2016/texmf-dist
@@ -3068,10 +3190,10 @@ ve/2016/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2016/texm
 f-dist/fonts/type1/public/kpfonts/jkpmne.pfb><c:/texlive/2016/texmf-dist/fonts/
 type1/public/kpfonts/jkpmsc8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
 c/kpfonts/jkpttmn8a.pfb>
-Output written on caldas_verecque_projet_asr.pdf (19 pages, 245455 bytes).
+Output written on caldas_verecque_projet_asr.pdf (29 pages, 1127975 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 426 compressed objects within 5 object streams
- 80 named destinations out of 1000 (max. 500000)
- 51172 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 482 compressed objects within 5 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 51220 words of extra memory for PDF output out of 51595 (max. 10000000)
 
