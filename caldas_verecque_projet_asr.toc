@@ -36,9 +36,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}OpenMP}{4}{section.0.6}
 \defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7}Cuda}{4}{section.0.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}MPI}{4}{section.0.8}
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}MPI}{5}{section.0.8}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -66,35 +74,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {11.2}Partitionnement de la cl\IeC {\'e} USB et Installation du SE}{8}{subsection.0.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12}Gcc}{8}{section.0.12}
+\contentsline {section}{\numberline {12}Gcc}{9}{section.0.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1}Installation}{8}{subsection.0.12.1}
+\contentsline {subsection}{\numberline {12.1}Installation}{9}{subsection.0.12.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {12.2}Validation OpenMP}{9}{subsection.0.12.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13}Cuda}{9}{section.0.13}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1}V\IeC {\'e}rifications}{9}{subsection.0.13.1}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2}Installation Cuda}{9}{subsection.0.13.2}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.3}Installation nvcc}{9}{subsection.0.13.3}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.4}Validation}{9}{subsection.0.13.4}
+\contentsline {section}{\numberline {13}Cuda}{11}{section.0.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14}MPI}{9}{section.0.14}
+\contentsline {subsection}{\numberline {13.1}V\IeC {\'e}rifications}{11}{subsection.0.13.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1}Installation}{9}{subsection.0.14.1}
+\contentsline {subsection}{\numberline {13.2}Installation Cuda}{12}{subsection.0.13.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2}Validation mono-poste}{9}{subsection.0.14.2}
+\contentsline {subsection}{\numberline {13.3}Installation nvcc}{12}{subsection.0.13.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.3}Validation sur r\IeC {\'e}seau}{9}{subsection.0.14.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{V\hspace {1em}Gestion de projet}{10}{part.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15}Organisation}{10}{section.0.15}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16}Planning}{10}{section.0.16}
+\contentsline {subsection}{\numberline {13.4}Validation}{12}{subsection.0.13.4}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -104,35 +106,27 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17}Gestion de versions}{11}{section.0.17}
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14}MPI}{13}{section.0.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1}Installation}{13}{subsection.0.14.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2}Validation mono-poste}{14}{subsection.0.14.2}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{VI\hspace {1em}Probl\IeC {\`e}mes et difficult\IeC {\'e}s rencontr\IeC {\'e}s}{12}{part.6}
+\contentsline {subsection}{\numberline {14.3}Validation sur r\IeC {\'e}seau}{15}{subsection.0.14.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {18}Connexion r\IeC {\'e}seau de Polytech}{12}{section.0.18}
+\contentsline {part}{V\hspace {1em}Gestion de projet}{16}{part.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19}Temps des installations}{12}{section.0.19}
+\contentsline {section}{\numberline {15}Organisation}{16}{section.0.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {20}Secure Boot}{12}{section.0.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {21}Mode Live et mode persistant}{13}{section.0.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {22}Limite de stockage}{13}{section.0.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {23}Fragilit\IeC {\'e}}{13}{section.0.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{VII\hspace {1em}Outils utilis\IeC {\'e}s}{14}{part.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {24}Linux Live Creator}{14}{section.0.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {25}USB Image Tools}{14}{section.0.25}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {26}Etcher}{14}{section.0.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {27}Diskpart}{14}{section.0.27}
+\contentsline {section}{\numberline {16}Planning}{16}{section.0.16}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -142,13 +136,83 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{VIII\hspace {1em}Guide d'utilisation}{17}{part.8}
+\contentsline {section}{\numberline {17}Gestion de versions}{17}{section.0.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IX\hspace {1em}Guide d'installation}{18}{part.9}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{X\hspace {1em}Guide du d\IeC {\'e}veloppeur}{19}{part.10}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{XI\hspace {1em}Conclusion}{20}{part.11}
+\contentsline {part}{VI\hspace {1em}Probl\IeC {\`e}mes et difficult\IeC {\'e}s rencontr\IeC {\'e}s}{18}{part.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {18}Connexion r\IeC {\'e}seau de Polytech}{18}{section.0.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {19}Temps des installations}{18}{section.0.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {20}Secure Boot}{18}{section.0.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {21}Mode Live et mode persistant}{19}{section.0.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {22}Limite de stockage}{19}{section.0.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {23}Fragilit\IeC {\'e}}{19}{section.0.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{VII\hspace {1em}Outils utilis\IeC {\'e}s}{20}{part.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {24}Linux Live Creator}{20}{section.0.24}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {25}USB Image Tool}{21}{section.0.25}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {26}Etcher}{22}{section.0.26}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {27}Diskpart}{23}{section.0.27}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{VIII\hspace {1em}Guide d'utilisation}{24}{part.8}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{IX\hspace {1em}Guide d'installation}{26}{part.9}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{X\hspace {1em}Guide du d\IeC {\'e}veloppeur}{29}{part.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{XI\hspace {1em}Conclusion}{30}{part.11}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 

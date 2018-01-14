@@ -16,43 +16,139 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Application utilisant MPI\relax }}{5}{figure.0.3}
+\contentsline {figure}{\numberline {3}{\ignorespaces Logo OpenMP\relax }}{4}{figure.0.3}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Liste des SE compatible avec Cuda\relax }}{7}{figure.0.4}
+\contentsline {figure}{\numberline {4}{\ignorespaces Logo NVidia Cuda\relax }}{5}{figure.0.4}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces T\IeC {\^a}ches identifi\IeC {\'e}es au d\IeC {\'e}but du projet\relax }}{10}{figure.0.5}
+\contentsline {figure}{\numberline {5}{\ignorespaces Application utilisant MPI\relax }}{5}{figure.0.5}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Planning du projet\relax }}{11}{figure.0.6}
+\contentsline {figure}{\numberline {6}{\ignorespaces Liste des SE compatible avec Cuda\relax }}{7}{figure.0.6}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Versions des images\relax }}{11}{figure.0.7}
+\contentsline {figure}{\numberline {7}{\ignorespaces OpenMP - Code de validation, compilation et ex\IeC {\'e}cution\relax }}{10}{figure.0.7}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces Linux live USB creator\relax }}{15}{figure.0.8}
+\contentsline {figure}{\numberline {8}{\ignorespaces OpenMP - Code 2 de validation, compilation et ex\IeC {\'e}cution\relax }}{11}{figure.0.8}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces Diskpart - Ex\IeC {\'e}cution et liste des commandes\relax }}{16}{figure.0.9}
+\contentsline {figure}{\numberline {9}{\ignorespaces Cuda - Code SAXPY\relax }}{12}{figure.0.9}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10}{\ignorespaces C - Code SAXPY\relax }}{13}{figure.0.10}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11}{\ignorespaces Cuda vs C - Compilation et ex\IeC {\'e}cution codes SAXPY\relax }}{13}{figure.0.11}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12}{\ignorespaces MPI - Code de validation mono-poste, compilation et ex\IeC {\'e}cution\relax }}{14}{figure.0.12}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13}{\ignorespaces T\IeC {\^a}ches identifi\IeC {\'e}es au d\IeC {\'e}but du projet\relax }}{16}{figure.0.13}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14}{\ignorespaces Planning du projet\relax }}{17}{figure.0.14}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15}{\ignorespaces Versions des images\relax }}{17}{figure.0.15}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {16}{\ignorespaces Linux live USB creator\relax }}{21}{figure.0.16}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {17}{\ignorespaces USB image tool\relax }}{22}{figure.0.17}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {18}{\ignorespaces Etcher\relax }}{22}{figure.0.18}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {19}{\ignorespaces Diskpart - Ex\IeC {\'e}cution et liste des commandes\relax }}{23}{figure.0.19}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {20}{\ignorespaces V\IeC {\'e}rification de la carte graphique - Code\relax }}{24}{figure.0.20}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {21}{\ignorespaces V\IeC {\'e}rifiaction de la carte graphique - OK\relax }}{25}{figure.0.21}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {22}{\ignorespaces V\IeC {\'e}rifiaction de la carte graphique - KO\relax }}{25}{figure.0.22}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {23}{\ignorespaces Sauvegarde de l'image disque avec USB Image Tools\relax }}{26}{figure.0.23}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {24}{\ignorespaces Re-partionnement de la cl\IeC {\'e} USB avec Diskpart\relax }}{27}{figure.0.24}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {25}{\ignorespaces Gravure de l'image disque avec Etcher\relax }}{28}{figure.0.25}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 

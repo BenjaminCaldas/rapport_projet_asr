@@ -18,13 +18,21 @@
 \motcle{OpenMP}
 \motcle{Cuda}
 \motcle{MPI}
-\resume{Projet ASR}
+\resume{Projet ASR de 5ème année à l’école Polytechnique de Tours. 
+	
+L’objectif est la mise en place d’un système d’exploitation contenant tous les outils nécessaires au développement suivant les trois grands axes de parallélisation : OpenMP, Nvidia GPU CUDA et MPI.
+
+Cette réalisation passe par la création de la clé USB bootable puis par l'ajout des éléments permettant les trois axes de parallélisation et les validations qui viennent avec.}
 
 \keyword{Operating system}
 \keyword{OpenMP}
 \keyword{Cuda}
 \keyword{MPI}
-\abstract{ASR project}
+\abstract{ASN project of the 5th year at the Polytechnic School of Tours. 
+	
+The goal is to set up an operating system containing all the necessary tools for development along the three main axes of parallelization : OpenMP, Nvidia GPU CUDA and MPI.
+
+This realisation need firstly to create the bootable USB key device, secondly in adding every element that each of these three parallelization axes needs, and finally in ensuring the validations that they need.}
 
 \addbibresource{biblio}
 
@@ -59,11 +67,11 @@ La figure suivante contient l'énoncé exact de notre sujet.
 \section{Objectifs}
 L’objectif de notre projet était de mettre en place un système d’exploitation Unix contenant tous les outils permettant de réaliser du développement suivant les trois grands axes de parallélisations :
 
-- OpenMP
+- multi-processeurs (ou CPU) avec OpenMP
 
-- Nvidia GPU Cuda
+- sur processeurs graphiques (ou GPU) avec Nvidia Cuda
 
-- MPI
+- sur différents postes d'un réseau avec MPI
 
 Ce système devait également être portable et bootable depuis n’importe quel clé usb. Cette contrainte indique également que le système doit être léger, simple d’utilisation et d’installation.
 
@@ -90,14 +98,26 @@ OpenMP (Open Multi-Processing) est une interface de programmation pour le calcul
 
 OpenMP permet donc de développer rapidement des applications parallèles à petite granularité en restant proche du code séquentiel.
 
-
 Par ailleurs, il est également possible de réaliser de la programmation parallèle hybride en utilisant à la fois OpenMP et MPI.
 
+\begin{figure}
+	\pgfimage[width=6cm]{images/logo_openmp.png}
+	\caption{Logo OpenMP}
+	\label{fig:logo_openmp}
+\end{figure}
 
 \section{Cuda}
 CUDA (Compute Unified Device Architecture) est une technologie en GPGPU, c’est-à-dire utilisant un processeur graphique (GPU) pour exécuter des calculs à la place du processeur (CPU). L’idée est donc de permettre de « soulager » le processeur en utilisant le processeur graphique pour effectuer un maximum de calcul en parallèle de celui-ci.
 
 CUDA permet de programmer des GPU en C. Elle a été développée par NVidia pour ses cartes graphiques et garde donc l’exclusivité autour de cette marque.
+
+\begin{figure}
+	\pgfimage[width=6cm]{images/logo_cuda_nvidia.jpg}
+	\caption{Logo NVidia Cuda}
+	\label{fig:logo_nvidia_cuda}
+\end{figure}
+
+\vfill\eject
 
 \section{MPI}
 MPI (Message Passing Interface) est une bibliothèque de fonctions, conçue en 1993, permettant le calcul parallèle en C, C++ et en Fortran. Elle exploite les ordinateurs multiprocesseur, donc quasiment toutes les machines actuelles, qu'elles soient en réseau ou non. Elle s'appuie sur cette communication en réseau pour distribuer les calculs à effectuer entre toutes les machines du réseau par passage de messages.
@@ -120,9 +140,12 @@ L’idée est de s’appuyer sur un OS le plus léger possible pour être portab
 Une fois notre clé disponible et le système correctement installé il nous faut mettre en place et installer sur celle-ci nos trois outils de développement.  Nous commencerons tout d’abord par OpenMP puis par CUDA et enfin par MPI. A noter que chaque phase d’installation fera intervenir une phase de tests afin de valider le bon fonctionnement de notre outil avant de passer à l’installation de la suivante.
 
 Enfin, l’utilisation des trois outils est effective dans la limite des conditions suivantes :
+
 - OpenMP : Toujours
+
 - CUDA : Si une carte graphique NIVIDIA est présente et disponible
-- MPI : Multi-machines si réseau disponible
+
+- MPI : Utilisation multi-machines si un réseau de machines existe.
 
 
 \section{Choix du système d'exploitation}
@@ -130,6 +153,8 @@ Cette section présente la démarche de sélection du système d’exploitation.
 
 \subsection{Recherche}
 Afin de choisir notre système d’exploitation nous avons cherché à trouver un système d’exploitation très léger capable de respecter les contraintes fixées pour ce projet. Parmi ces contraintes, la plus importante était évidemment d’être capable de supporter CUDA. Pour cela, NVIDIA a mis à disposition sur son site officiel la liste des systèmes capables de l’utiliser. Cette liste est la suivante :
+
+\vfill\eject
 
 \begin{figure}
 	\pgfimage[width=10cm]{images/compatibilite_OS.png}
@@ -144,7 +169,7 @@ Notre choix s’est donc finalement porté sur Lubuntu pour plusieurs raisons im
 
 On notera que Lubuntu utilise pour cela l’environnement de bureau LXDE et le compilateur GCC  n’est pas installé par défaut.
 
-\part{Étapes de réalisation} %%TOCOMPLETE
+\part{Étapes de réalisation} %%TOCOMPLETE (MPI IN NETWORK)
 Dans cette partie, nous verrons quelles étaient les différentes étapes de réalisation du projet.
 
 \section{Création de la clé bootable}
@@ -159,34 +184,99 @@ Après avoir booté sur la clé USB live tout juste créé, nous avons lancer l'
 \section{Gcc}
 
 \subsection{Installation}
-Le paquet gcc n'est pas présent nativement lorsque l'on installe Lubuntu sans les outils recommandés, il a donc fallut l'installer. Dans ce but, nous avons effectuer une mise à jour des services \textit{apt-get} puis nous avons installer le paquet gcc à l'aide de la commande \textit{apt-get install gcc}. L'installation de ce paquet d'environ 80 Mo prend un peu plus d'1 heure.
+Le paquet gcc n'est pas présent nativement lorsque l'on installe Lubuntu sans les outils recommandés, il a donc fallut l'installer. Dans ce but, nous avons effectuer une mise à jour des services \textit{apt-get} puis nous avons installer le paquet gcc. L'installation de ce paquet d'environ 80 Mo prend un peu plus d'1 heure. Afin de tester si le paquet a bien été installé, on effectue une commande permettant de connaître la version de gcc. Si une version est affichée dans le terminal, la paquet a bien été installé.
 
 \subsection{Validation OpenMP}
-Afin de tester si gcc a bien été installé, on a vérifié en entrant la commande permettant de connaître sa version. La commande est \textit{gcc --version}.
-
 Lorsque gcc est installé, OpenMP est utilisable. On a donc codé un programme simple permettant de voir si la programmation multi-coeurs est bien effective.
+
+La figure ci-dessous illustre le code que nous avons mis en oeuvre afin de tester OpenMP. Celui-ci se contente de dire bonjour à l'utilisateur par le biais des différents threads qu'il a à sa disposition.
+
+\vfill\eject
+
+\begin{figure}
+	\pgfimage[width=12cm]{images/openmp_hello.png}
+	\caption{OpenMP - Code de validation, compilation et exécution}
+	\label{fig:openmp_hello}
+\end{figure}
+
+On peut remarquer que les threads ne mettent pas le même temps à exécuter le code et c'est pour cela que les affichages ne suivent pas l'ordre croissant des numéros de thread.
+
+La figure ci-après illustre un exemple de code où l'on effectue un grand nombre d'opérations dans une boucle for partagée entre les différents threads.
+
+\vfill\eject
+
+\begin{figure}
+\pgfimage[width=16cm]{images/openmp_test.png}
+\caption{OpenMP - Code 2 de validation, compilation et exécution}
+\label{fig:openmp_test}
+\end{figure}
+
+On remarque que les 10 000 opérations sont bien équitablement répartis entre les 4 threads disponibles.
 
 \section{Cuda}
 
 \subsection{Vérifications}
 Avant d'installer les paquets nécessaires au fonctionnement de Cuda, il y a plusieurs vérifications à effectuer dans le but de savoir si le système est correctement paramétré pour exécuter des programmes mettant en oeuvre la programmation parallèle sur GPU.
 
-Il a fallut dans un premier temps vérifier que la distribution Linux était compatible. Vu que nous avons choisit le SE en fonction de ce critère de compatibilité, il n'y avait pas de soucis de ce côté. Ensuite, il fallait vérifier que l'ordinateur possède une carte graphique de marque NVidia. En revanche, dans notre cas, nous paramétrons une distribution embarquée sur clé USB, cette vérification sera donc a effectuer sur les postes qui utiliserons notre clé USB bootable. Enfin, Cuda s'appuie sur le paquet gcc que nous avons installé puis vérifié précédemment.
+Il a fallut dans un premier temps vérifier que la distribution Linux était compatible. Vu que nous avons choisit le SE en fonction de ce critère de compatibilité, il n'y avait pas de soucis de ce côté. Ensuite, il fallait vérifier que l'ordinateur possède une carte graphique de marque NVidia. En revanche, dans notre cas, nous paramétrons une distribution embarquée sur clé USB, cette vérification sera donc à effectuer sur les postes qui utiliserons notre clé USB bootable. Enfin, Cuda s'appuie sur le paquet gcc que nous avons installé puis vérifié précédemment.
 
 \subsection{Installation Cuda}
-Nous avons ensuite pu installer les paquets nécessaire à Cuda en suivant les recommandations du site \textit{developer.nvidia.com}. Cet installation requière environ 3 Go d'espace disque est prend approximativement 3h.
+Nous avons ensuite pu installer les paquets nécessaire à Cuda en suivant les recommandations du site \url{https://developer.nvidia.com/}. Cet installation requière environ 3 Go d'espace disque est prend approximativement 3h. Après avoir installé Cuda, on va se rendre compte qu'il n'est pas encore utilisable.
 
 \subsection{Installation nvcc}
+En effet, afin de réaliser des programmes parallèles en Cuda, on a besoin du compilateur nvcc. Pour cela, on va installer le paquet \textit{nvidia-cuda-toolkit} qui intégrera le compilateur et les autres outils nécessaires (librairies, python). Ce paquet requière environ 2 Go d'espace disque et nécessite environ 2h d'installation.
 
 \subsection{Validation}
+Afin de valider l'installation de Cuda ainsi que de tous les composants nécessaires pour effectuer de la programmation parallèle s'appuyant sur le GPU, nous avons implémenté du code en \textit{.cu}, l'extension propre aux programmes en Cuda. Ce programme implémente le SAXPY, pour Single Precision of A*X + Y, une fonction d'algèbre linéaire qui consiste à calculer l'opération z = ax + y où x,y et z sont des vecteurs et a un scalaire. Ce programme est considérée comme le \textit{Hello world} de Cuda.
+
+La figure ci-dessous illustre le code mis en œuvre dans le but de tester la programmation multi-GPU avec Cuda.
+
+\begin{figure}
+	\pgfimage[width=13cm]{images/code_test_cuda.png}
+	\caption{Cuda - Code SAXPY}
+	\label{fig:cuda_saxpy_code}
+\end{figure}
+
+\vfill\eject
+
+Nous avons implémenté le même code en c classique afin de comparer les résultats. Il est illustré dans la figure suivante :
+
+\begin{figure}
+\pgfimage[width=13cm]{images/code_saxpy.png}
+\caption{C - Code SAXPY}
+\label{fig:c_saxpy_code}
+\end{figure}
+
+On observe les résultats suivants :
+
+\begin{figure}
+\pgfimage[width=16cm]{images/res_saxpy_cuda.png}
+\caption{Cuda vs C - Compilation et exécution codes SAXPY}
+\label{fig:cuda_vs_c_saxpy}
+\end{figure}
+
+On peut remarquer que le code Cuda (en vert) mets 2 secondes de moins que le code classique en c (en bleu). La programmation utilisant le GPU fait donc gagner 2 précieuses secondes.
 
 \section{MPI}
 
 \subsection{Installation}
+L'installation de MPI est la plus simple et la plus rapide. Il suffit d'installer le paquet \textit{mpich}, sa documentation et les librairies dont il a besoin. Les paquets occupent 50 Mo d'espace disque et ne mets pas plus de 15 min à s'installer.
 
 \subsection{Validation mono-poste}
+Après avoir installé MPI, nous avons implémenté un programme simple qui récupère tous les processus à disposition et qui dit bonjour de chacun d'eux.
 
-\subsection{Validation sur réseau}
+La figure ci-dessous illustre le code mis en oeuvre dans le but de valider la programmation MPI sur un seul poste.
+
+\begin{figure}
+	\pgfimage[width=12cm]{images/mpi_hello.png}
+	\caption{MPI - Code de validation mono-poste, compilation et exécution}
+	\label{fig:mpi_hello}
+\end{figure}
+
+\vfill\eject
+
+\subsection{Validation sur réseau} %%TODO
+TO DO
 
 \part{Gestion de projet}
 
@@ -253,11 +343,14 @@ Comme dit précédemment, la taille de nos outils au total est assez élevée, p
 \section{Fragilité}
 Il faut absolument manier la clé USB avec le plus grand soin. Comme tout périphérique extérieur contenant un système d’exploitation celui-ci est fragile. Il est important de ne pas être brutal avec celui-ci ni de retirer la clé en cours d’exécution du système ou si celui-ci n’est pas encore totalement terminé. Dans le cas contraire, on peut s’exposer à une destruction ou une corruption pur et simple du système d’exploitation. Dans cet optique, il est important d’utiliser des sauvegardes de notre OS pour éviter une réinstallation complète de celui-ci.
 
-\part{Outils utilisés} %%TOCOMPLETE
+\part{Outils utilisés}
 Dans cette partie, nous récapitulerons tous les outils utilisés, nous détaillerons leurs fonctionnalités et nous indiquerons où et comment se les procurer.
 
 \section{Linux Live Creator}
 LinuxLive USB Creator est un logiciel gratuit et open source pour Windows qui permet de créer une clé USB bootable avec une distribution Linux dessus. Ce logiciel se veut très simple d’utilisation avec une interface ergonomique et intuitive. Chaque étape nécessaire à la création de la clé USB est affublé d’un feu de circulation permettant d’indiquer à l’utilisateur si l’étape a bien été remplie.
+
+Cet outil est disponible sur le site officiel du logiciel :
+\url{http://www.linuxliveusb.com/fr/}
 
 \begin{figure}
 	\pgfimage[width=10cm]{images/lili_usb_creator.png}
@@ -265,17 +358,38 @@ LinuxLive USB Creator est un logiciel gratuit et open source pour Windows qui pe
 	\label{fig:lili_usb_creator}
 \end{figure}
 
-Cet outil est disponible sur le site officiel du logiciel :
-http://www.linuxliveusb.com/fr/
+\vfill\eject
 
-\section{USB Image Tools} %%TODO
-Sauvegarde des .img
+\section{USB Image Tool}
+USB image tool est un logiciel gratuit pour Windows qui permet créer facilement des copies d'images disques à partir de lecteurs amovibles. L'avantage de ce logiciel est qu'il n'a pas besoin d'installation, il est prêt à l'emploi après téléchargement. Il permet de générer des images au format \textit{.img} et \textit{.ima}. Il permet également la restauration d'images disques en cas de perte de données.
 
-\section{Etcher} %%TODO
-Ré-injection des .img
+Cet outil est disponible sur le site officel du logiciel :
+\url{https://usb-image-tool.fr.uptodown.com/windows}
+
+\begin{figure}
+	\pgfimage[width=10cm]{images/USBImageTool.png}
+	\caption{USB image tool}
+	\label{fig:usb_image_tool}
+\end{figure}
+
+\vfill\eject
+
+\section{Etcher}
+Etcher est un logiciel gratuit pour Windows qui permet de graver des images disques sur des lecteurs amovibles comme les clés USB. Il est très intuitif et facile d'utilisation. Il comporte trois étapes qui doivent être réalisées les unes à la suite des autres. Il faut d'abord sélectionner l'image disque, au format \textit{.img}, \textit{.iso} ou \textit{.zip}, avant de sélectionner le lecteur de destination qui peut être une clé USB ou une carte SD. Il suffit ensuite d'appuyer sur \textit{Flash!} et d'attendre que la gravure se fasse.
+
+Cet outil est disponible sur le site officel du logiciel :
+\url{https://etcher.io/}
+
+\begin{figure}
+	\pgfimage[width=12cm]{images/etcher.png}
+	\caption{Etcher}
+	\label{fig:etcher}
+\end{figure}
+
+\vfill\eject
 
 \section{Diskpart}
-Diskpart est un outil logiciel de partionnement de disques durs informatique. Il est nativement intégrer sous Windows. Diskpart permet de découper un disque dur ou autre périphérique externe en plusieurs partitions, pour permettre par exemple la cohabitation de plusieurs systèmes d’exploitation sur une même machine. Diskpart permet également de préparer une clé USB en gérant les partitions systèmes, c’est ce qui nous intéresse ici.
+Diskpart est un outil logiciel de partionnement des supports de stockage. Il est nativement intégré sous Windows. Diskpart permet de découper un disque dur ou autre périphérique de stockage externe en plusieurs partitions, par exemple dans le but d'assurer la cohabitation de plusieurs systèmes d’exploitation sur une même machine. Diskpart permet également de réparer les supports de stockage en leur attribuant une seule partition primaire.
 
 \begin{figure}
 	\pgfimage[width=10cm]{images/diskpart.png}
@@ -283,7 +397,7 @@ Diskpart est un outil logiciel de partionnement de disques durs informatique. Il
 	\label{fig:diskpart}
 \end{figure}
 
-\part{Guide d'utilisation} %%TODO
+\part{Guide d'utilisation} %%TOCOMPLETE
 Dans le but d'aider les utilisateurs à utiliser notre clé USB bootable intégrant un SE capable d'effectuer de la parallélisation avec OpenMP, Cuda et MPI, nous avons réalisé un guide d'utilisation.
 
 Brancher la clé USB.
@@ -294,29 +408,86 @@ Dire où sont les exemples
 
 Commande OpenMP
 
-Script check carte graphique pour Cuda
+Nous avons réalisé un petit script \textit{.sh} afin de vérifier si une carte graphique de marque NVIDIA est présente afin de programmer parallèlement en utilisant le GPU. Le code est illustré dans la figure suivante :
+
+\begin{figure}
+	\pgfimage[width=12cm]{images/code_check_GPU.png}
+	\caption{Vérification de la carte graphique - Code}
+	\label{fig:check_gpu_code}
+\end{figure}
+
+\vfill\eject
+
+Nous avons dans la figure suivante un exemple de machine possédant une carte graphique NVIDIA. La programmation en Cuda sera donc possible.
+
+\begin{figure}
+	\pgfimage[width=12cm]{images/check_GPU.png}
+	\caption{Vérifiaction de la carte graphique - OK}
+	\label{fig:check_gpu_ok}
+\end{figure}
+
+Nous avons dans la figure suivante un exemple de machine ne possédant pas de carte graphique NVIDIA. La programamtion en Cuda ne sera donc pas possible.
+
+\begin{figure}
+	\pgfimage[width=12cm]{images/checkGPU_noNVIDIA.png}
+	\caption{Vérifiaction de la carte graphique - KO}
+	\label{fig:check_gpu_ko}
+\end{figure}
 
 Commande Cuda
 
 Commande MPI
 
-\part{Guide d'installation} %%TODO
-Dans le but d'aider un utilisateur à installer l'image de notre SE capable d'effectuer de la parallélisation avec OpenMP, Cuda et MPI, nousa vons réalisé un guide d'installation. Ce guide eprmettra aussi à l'utilisateur de générer sa propre image après avoir fait ce qu'il voulait sur le SE. On lui indiquera également comment repartitionner sa clé USB.
+\part{Guide d'installation}
+Dans le but d'aider un utilisateur à installer l'image de notre SE capable d'effectuer de la parallélisation avec OpenMP, Cuda et MPI, nous avons réalisé un guide d'installation. Ce guide permettra aussi à l'utilisateur de générer sa propre image après avoir fait ce qu'il voulait sur le SE. On lui indiquera également comment re-partitionner sa clé USB et graver à nouveau une image disque sur sa clé.
 
-Injection .IMG avec Etcher
+1) Sauvegarde .IMG avec USB Image Tool
 
-Sauvegarde .IMG avec USB Image Tools
+Pour lancer le programme USB image tool, il suffit de double-cliquer sur l'exécutable dans le dossier qui a été téléchargé. Ensuite, il faut identifier la clé USB de laquelle on souahite effectuer une sauvegarde la sélectionner. Ensuite, il faut cliquer sur le bouton \textit{Backup} et spécifier le nom de fichier de l'image disque qui va être générée. L'opération ne devrait pas prendre plus de 15 minutes. La figure ci-après résume les étapes à effectuer :
 
-Rapartionnement avec Diskpart
+\begin{figure}
+	\pgfimage[width=12cm]{images/USBImageTools_backup.png}
+	\caption{Sauvegarde de l'image disque avec USB Image Tools}
+	\label{fig:usb_image_tools_backup}
+\end{figure}
+
+\vspace{1\baselineskip}
+
+2) Partitionnement avec Diskpart
+
+Pour lancer le programme Diskpart sous Windows, il suffit d'aller dans \textit{Exécuter} et de saisir \textit{diskpart} dans la saisie du programme à ouvrir.
+
+Ensuite, il faudra sélectionner le disque à partitionner, effacer les partitions actuelles et créer une nouvelle partition primaire. Ces actions à effectuer sont synthétisées dans la figure suivante :
+
+\begin{figure}
+	\pgfimage[width=12cm]{images/partitionnement.png}
+	\caption{Re-partionnement de la clé USB avec Diskpart}
+	\label{fig:partion}
+\end{figure}
+
+\vfill\eject
+
+3) Gravure .IMG avec Etcher
+
+Il suffit de lancer le programme Etcher, de sélectionner l'image disque à graver, de sélectionner la clé USB de destination puis de lancer la gravure en appuyant sur le bouton \textit{Flash!}. La figure ci-après illustre les actions à effectuer :
+
+\vfill\eject
+
+\begin{figure}
+	\pgfimage[width=12cm]{images/etcher_gravure.png}
+	\caption{Gravure de l'image disque avec Etcher}
+	\label{fig:etcher_mount}
+\end{figure}
+
+Il y aura une phase de gravure puis une phase de validation. Le tout ne devrait pas dépasser les 30 minutes.
 
 \part{Guide du développeur} %%TODO
 Dans le but d'aider un futur développeur qui se lancerait dans la même tâche que celle qui nous a été confiée, nous avons créé un guide destiné à une personne ayant des compétences assez avancées en système dans le but de lui donner la marche à suivre dans la réalisation du clé USB bootable intégrant un SE capable d'effectuer de la parallélisation avec OpenMP, Cuda et MPI.
 
-\part{Conclusion} %%TODO
-Livrables :
+\part{Conclusion}
 
-OS sur clé avec 3 méthodes de parallélisation
+Ce projet aura été pour nous l’occasion de mettre en pratique tout un panel de connaissances acquises tout au long de notre formation en Architecture, Systèmes et Réseaux. Bien que le sujet en lui-même soit relativement court, il n’aura pas été exempt de toute difficulté comme nous avons pu le constater et l’expérimenter par nous-même. Néanmoins, c’est à travers celles-ci et en utilisant nos connaissances en Unix et en système que nous avons pu mener ce projet à bout. Cela nous a permit d'enrichir nos connaissances et nos acquis qui nous seront utiles aussi bien dans notre vie personnel que dans notre vie professionnelle.
 
-fichiers ajoutés dedans seront persistants
+Nous rendons avec ce rapport les 2 clés USB qui nous avaient été confiées avec le SE configuré pour les 3 modes de parallélisation gravé à l'intérieur. Nous rendons également l'image disque au format \textit{.img} de ce SE. Un guide d'installation et un guide d'utilisation, respectivement pour l'image disque et les 2 clés USB rendues, sont disponibles dans ce rapport.
 
 \end{document}
